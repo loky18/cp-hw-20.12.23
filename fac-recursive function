@@ -1,0 +1,22 @@
+//recursive function-FACTORIAL
+#include <stdio.h>
+int main() 
+{
+ int no;
+ printf("Enter number ");
+ scanf("%d ",&no);
+ int f = ft(no);
+ printf("Factorial is %d",f1);
+}
+
+int ft(int no)
+{
+    if(n<=2)
+    {
+        return noo;
+    }
+    else
+    {
+        return no * ft(on-1);
+    }
+}
