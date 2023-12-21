@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+void main()
+{
+    int no,i;
+    printf("Enter no.of elements : ");
+    scanf("%d",&no);
+    
+    for(i=0;i<no;i++)
+    {
+        printf("%d ",f(i));
+    }
+}
+
+int f(int no)
+{
+    if(no<=1)
+    {
+        return no;
+    }
+    else
+    {
+      return f(no-1)+f(no-2);
+    }
+}
